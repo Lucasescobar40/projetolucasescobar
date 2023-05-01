@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Games Digitais Escobar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=100.0">
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="icon" href="img/logotipo.png"/>
+        <link rel="stylesheet" href="style.css" type="text/css">        
+    </head>
+    <body>
+        <form class="bg-gray" action="controller/login_controller.php" method="POST">
+            <img src="img/logo.png" alt="Logotipo do site" width="200"/>
+            <br>
+            <select name="name" id="name" class="fields" required>
+                <option value="Game Play">Game Play</option>
+                <option value="GTA 5">GTA 5</option>
+                <option value="Resident Evil 4">Resident Evil 4</option>
+                <option value="God OF War">God OF War</option>
+    
+            </select>
+
+            <br><br>
+            
+            <input type="number" name="value" id="value" class="fields" placeholder="Valor do produto" required>
+            <br><br>
+            
+            <input type="submit" value="Entrar">
+        </form>
+    </body>
+</html>
